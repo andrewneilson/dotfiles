@@ -5,8 +5,13 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="bunsen"
 
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
+
+alias vim=/usr/local/bin/vim --remote
+alias vimdiff=/usr/local/bin/vimdiff
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -79,3 +84,6 @@ bindkey '^R' history-incremental-search-backward
 bindkey '^S' history-incremental-search-forward
 bindkey '^P' history-search-backward
 bindkey '^N' history-search-forward  
+
+# powerline in ZSH (slow)
+#. ~/ext/powerline/powerline/bindings/zsh/powerline.zsh
