@@ -32,6 +32,11 @@ noremap <leader>yy "*Y
 " Preserve indentation while pasting text from the OS X clipboard
 noremap <leader>p :set paste<CR>:put  *<CR>:set nopaste<CR>
 
+" copy to OSX clipboard
+if $TMUX == ''
+  set clipboard=unnamed
+endif
+
 " CtrlP
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*     " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
