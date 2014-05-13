@@ -72,6 +72,7 @@ export PATH=$PATH:"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/aneilson/
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+export JAVA_HOME="$(/usr/libexec/java_home)"
 export TAGCONFIG=/etc/tagconfig
 export SBT_OPTS="-Xmx1536M -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xss16M  -Duser.timezone=GMT"
 
