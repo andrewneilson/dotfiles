@@ -11,6 +11,8 @@ Much of this is based on [this blog post](http://www.drbunsen.org/the-text-trium
 
 ### vim plugins
 
+Using [vim-pathogen](https://github.com/tpope/vim-pathogen).
+
 ```
 ctrlp.vim
 tmuxline.vim
