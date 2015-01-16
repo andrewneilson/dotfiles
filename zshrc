@@ -56,7 +56,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH=$PATH:"/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/aneilson/.jenv/shims:/Users/aneilson/.jenv/bin:/Users/aneilson/ext/play"
+export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/Users/aneilson/.jenv/shims:/Users/aneilson/.jenv/bin:/Users/aneilson/ext/play
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -88,3 +88,12 @@ bindkey '^N' history-search-forward
 
 # powerline in ZSH (slow)
 #. ~/ext/powerline/powerline/bindings/zsh/powerline.zsh
+
+# gcc
+#export CC=/usr/local/bin/gcc-4.9
+#export CPP=/usr/local/bin/cpp-4.9
+#export CXX=/usr/local/bin/g++-4.9
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+unsetopt nomatch
