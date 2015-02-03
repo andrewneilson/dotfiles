@@ -51,3 +51,6 @@ if !exists('g:airline_symbols')
 endif
 let g:airline_symbols.space = "\ua0"
 let g:airline#extensions#tabline#enabled = 1
+
+" semantic-highlight
+nnoremap <Leader>s :SemanticHighlightToggle<cr>

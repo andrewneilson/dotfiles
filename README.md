@@ -26,7 +26,10 @@ vim-sleuth
 vim-surround
 vim-tmux-navigator
 vim-unimpaired
+semantic-highlight
 ```
+
+- [semantic-highlight](https://github.com/jaxbot/semantic-highlight.vim) on Github
 
 ### tmux plugins
 
