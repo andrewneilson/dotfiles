@@ -97,3 +97,5 @@ bindkey '^N' history-search-forward
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 unsetopt nomatch
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
