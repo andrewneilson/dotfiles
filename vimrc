@@ -41,16 +41,5 @@ endif
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/target/*     " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
-" powerline (status line) - commented out to try airline
-"to set rtp+=~/ext/powerline/powerline/bindings/vim
-
-" vim-airline
-let g:airline_powerline_fonts = 1
-if !exists('g:airline_symbols')
-  let g:airline_symbols = {}
-endif
-let g:airline_symbols.space = "\ua0"
-let g:airline#extensions#tabline#enabled = 1
-
 " semantic-highlight
 nnoremap <Leader>s :SemanticHighlightToggle<cr>
